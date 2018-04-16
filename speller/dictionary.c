@@ -22,7 +22,7 @@ int length = 0;
     int hash(char const *word)//hash words by first letter, gives us 26 hash tables, one for each letter using 0-25 as index
     {
         char firstLetter = word[0];
-        int hash_in = tolower(firstLetter) - 'a'; //sets hash table index to ascii value of first letter (to lower case) - ascii for 'a' - returns 0-25
+        int hash_in = tolower(firstLetter) - 'a'; //sets hash table index to ascii value of first letter (to lower case) minus ascii for 'a' -- returns 0-25
         return hash_in;
     }
 

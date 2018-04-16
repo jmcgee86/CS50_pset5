@@ -1,5 +1,12 @@
-cat
+CAt
 alligator
-alli
+alLi
 classes
 zo
+hello
+caterpillar
+apples
+oranges
+classes
+alligatorS
+HELLO
